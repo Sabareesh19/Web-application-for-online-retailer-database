@@ -1,0 +1,24 @@
+Create table Customer(
+Customer_id number(6) NOT NULL,
+First_name varchar(20) NOT NULL,
+Middle_name varchar(20),
+Last_name varchar(20) NOT NULL,
+email_id varchar(50) NOT NULL,
+password varchar(30) NOT NULL,
+Date_joined date NOT NULL,
+primary key(Customer_id));
+
+Create sequence customer_seq start with 100
+increment by 1
+minvalue 10000;
+
+insert into Customer(Customer_id,first_name,middle_name,last_name,email_id,password,Date_joined) values(customer_seq.nextval,Darvin, Millan,Jackson,jack14@gmail.com,jackson14,03-11-2017);
+insert into Customer(Customer_id,first_name,middle_name,last_name,email_id,password,Date_joined) values(customer_seq.nextval,MohanBabu,Mooan,moaan13@gmail.com,moaan13,05-10-2017);
+insert into Customer(Customer_id,first_name,middle_name,last_name,email_id,password,Date_joined) values(customer_seq.nextval,Badri,Chowdari,Mooan,badri09@gmail.com,badri09,10-31-2017);
+insert into Customer(Customer_id,first_name,middle_name,last_name,email_id,password,Date_joined) values(customer_seq.nextval,Suresh,Subramaniam,ssureshinv9@gmail.com,ssuresh19,01-27-2017);
+insert into Customer(Customer_id,first_name,middle_name,last_name,email_id,password,Date_joined) values(customer_seq.nextval,Suresh,Babu,Sarvesh,sarvee91@gmail.com,sarvee91,04-14-2017);
+insert into Customer(Customer_id,first_name,middle_name,last_name,email_id,password,Date_joined) values(customer_seq.nextval,John,Paul,john901@gmail.com,paul901,08-01-2017);
+insert into Customer(Customer_id,first_name,middle_name,last_name,email_id,password,Date_joined) values(customer_seq.nextval,Lisa,Joseph,lisasexee@gmail.com,lisagirl,08-01-2017);
+insert into Customer(Customer_id,first_name,middle_name,last_name,email_id,password,Date_joined) values(customer_seq.nextval,Youn,Hong,john901@gmail.com,hong1234,07-18-2017);
+insert into Customer(Customer_id,first_name,middle_name,last_name,email_id,password,Date_joined) values(customer_seq.nextval,Emma,Paul,Watson,watson96@gmail.com,watson1234,09-19-2017);
+insert into Customer(Customer_id,first_name,middle_name,last_name,email_id,password,Date_joined) values(customer_seq.nextval,Pavithra,Prakash,ppsoleti83@gmail.com,pp83soleti,05-21-2017);

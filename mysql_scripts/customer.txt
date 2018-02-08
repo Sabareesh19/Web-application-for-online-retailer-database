@@ -1,0 +1,25 @@
+Create table Customer(
+cust_id varchar(20) NOT NULL,
+firstname varchar(20) NOT NULL,
+lastname varchar(20) NOT NULL,
+email varchar(50) NOT NULL,
+password varchar(30) NOT NULL,
+street varchar(20),
+city char(20),
+zipcode number(10),
+phonenumber number(15),
+Datejoined date NOT NULL,
+usertype varchar(30) NOT NULL,
+primary key(cust_id));
+
+
+insert into Customer values('jack14','Darvin','Jackson','jack14@gmail.com','jackson14','209 King Drive','Chicago','600896','7623419870','03-11-2017','customer');
+insert into Customer values('moaan13','MohanBabu','Mooan','moaan13@gmail.com','moaan13','14 Michigan Avenue','New York','601796','2145619870','05-10-2017','customer');
+insert into Customer values('badri09','Badri','Moan','badri09@gmail.com','badri09','23 Lake Meadows','San Fransisco','612896','4093789870','10-31-2017','employee');
+insert into Customer values('ssureshinv9','Suresh','Subramaniam','ssureshinv9@gmail.com','ssuresh19','Cermark Avenue','Chicago','600896','6783419870','01-27-2017','employee');
+insert into Customer values('sarvee91','Suresh','Sarvesh','sarvee91@gmail.com','sarvee91','3001 South King Drive','Chicago','600896','3452419870','04-14-2017','customer');
+insert into Customer values('john901','John','Paul','john901@gmail.com','paul901','14 South Commons','Bridgeport','230896','6783019870','08-01-2017','customer');
+insert into Customer values('lisasexee','Lisa','Joseph','lisasexee@gmail.com','lisagirl','23 W Marthin Luther Drive','Chicago','600896','5673909870','10-01-2017','employee');
+insert into Customer values('hong901','Youn','Hong','hong901@gmail.com','hong1234','Ashwood Luther','Dallas','780896','3123419870','07-18-2017','customer');
+insert into Customer values('watson96','Emma','Watson','watson96@gmail.com','watson1234','Mccormik Tribune','Lakeside','430896','4093419870','09-19-2017,'customer');
+insert into Customer values('ppavithra83','Pavithra','Prakash','ppavithra83@gmail.com','pp83soleti','Prairie shores','Cincinathi','620896','6501459870','05-21-2017','customer');

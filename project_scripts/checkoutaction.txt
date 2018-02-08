@@ -1,0 +1,7 @@
+Create table Checkoutaction(
+checkoutid varchar(20) NOT NULL ,
+storeid varchar(25)NOT NULL,
+quantity varchar(15),
+Primary key(productid,storeid),
+Foreign key (storeid) references Store,
+Productid key (storeid) references product);

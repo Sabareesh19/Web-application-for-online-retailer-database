@@ -1,0 +1,10 @@
+Create table Employee(
+userid varchar(10) NOT NULL,
+storeid varchar(100) NOT NULL,
+Primary key (userid,storeid),
+Foreign key (storeid) references Store,
+Foreign key (userid) references Customer);
+
+'badri09','102'
+'ssureshinv9','101'
+'lisasexee','103'

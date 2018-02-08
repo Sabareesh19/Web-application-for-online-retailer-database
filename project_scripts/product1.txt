@@ -1,0 +1,38 @@
+create table Product
+(
+ProductID varchar(20) PK
+UPC varchar(20)
+BrandName varchar(20)
+VendorName varchar(20)
+ProductName varchar(20)
+Costvalue varchar(20)
+Description varchar(150)
+);
+ 
+ 
+ 
+'P101', 'U123', 'Sony', 'Electrontors', 'Playstation 4', '250$', 'Sony Gaming has best graphic works.color blue'
+'P102', 'U124', 'Sony', 'Electrontors', 'Televisio', '500$','Smart TV can play 10 channels at a time. color blue'
+'P103', 'U125', 'Sony', 'Electrontors', 'Xperia', '300$', 'Sony phone has best network connectivity. Color grey'
+'P104', 'U126', 'Sony', 'Electrontors', 'DSLR Handicam', '450$', 'Sony Cameras can capture pictures with high HD resolution. Colour Black '
+'P105', 'U127', 'Microsoft', 'Officederlivers', 'Office 365', '90$', 'Office package is limited'
+'P106', 'U128', 'Microsoft', 'Officederlivers', 'Xbox', '600$', 'Microsoft Gaming has best graphics. Color blue'
+'P107', 'U129', 'Microsoft', 'Officederlivers', 'Surface', '700$', 'The silver grey laptop is a computer which is easy to carry around. Its user can fold the laptop along its hinge for carrying.'
+'P108', 'U130', 'Microsoft', 'Officederlivers', 'Surface tablet', '450$','Tablet is easy to carry. color black'
+'P109', 'U131', 'Lenovo', 'Easybuy', 'Yoga', '800$', ' 'The dusty grey laptop is a computer which is easy to carry around. Its user can fold the laptop along its hinge for carrying.'
+'P110', 'U132', 'Lenovo', 'Easybuy', 'Desktops', '650$', 'Lenevo Computer are the best in the world. Colour black'
+'P111', 'U133', 'Bose', 'Easybuy', 'Headphones', '400$', 'Bose Grey Wireless headphones are the fast moving in the recent trends'
+'P112', 'U134', 'Bose', 'Easybuy', 'Bluetooth speakers', '589$',  'Bose Speakers have the best sound quality'
+'P113', 'U135', 'Bose', 'Easybuy', 'Home theatre', '950$', 'Bose Sound sytem is noise resistant Color blue'
+'P114', 'U136', 'HP', 'Computerronics', 'Envy x360', '890$',' 'The dark red laptop is a computer which is easy to carry around. Its user can fold the laptop along its hinge for carrying.'
+'P115', 'U137', 'HP', 'Computerronics', 'Desktops', '750$', 'HP Computers are the best in the world. Colour black'
+'P116', 'U138', 'HP', 'Computerronics', 'Printers', '400$', 'HP Printer can print multiple pages in one shot.color white'
+'P117', 'U139', 'JBL', 'Gadgetsco', 'Headphones', '250$', 'JBL Grey Wireless headphones are the fast moving in the recent trends'
+'P118', 'U140', 'JBL', 'Gadgetsco', 'Speakers', '189$', 'JBL Black Speakers have the best sound quality'
+'P119', 'U141', 'Samsung', 'Iplanet', 'Galaxy-8', '800$',  'Samsung Silver Phones have multiple front and back cameras'
+'P120', 'U142', 'Samsung', 'Iplanet', 'Galaxy-8 Plus', '950$',  'Samsung white Phones have multiple front and back cameras'
+'P121', 'U143', 'Apple', 'Iplanet', 'Iphone 8', '1000$', 'Apple Cameras can capture pictures with high HD resolution. Colour Black '
+'P122', 'U144', 'Apple', 'Iplanet', 'Macbook pro', '2150$', 'Apple Laptop is the best laptop for gaming. Color white'
+'P123', 'U145', 'Nikon', 'Gadgetsco', 'Point and shoot', '750$', 'Nikon Cameras can capture pictures with high HD resolution. Colour Black '
+'P124', 'U146', 'Canon', 'Gadgetsco', 'EOS rebel', '899$', 'Canon Cameras can capture pictures with high HD resolution. Colour Black '
+'P125', 'U147', 'Canon', 'Gadgetsco', 'Vixia HF', '959$','Canon Handicam are easy to snap pictures.color grey'

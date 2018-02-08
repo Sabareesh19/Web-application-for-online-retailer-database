@@ -1,0 +1,11 @@
+Create table Store(
+storeid varchar(20) NOT NULL Primary key,
+phonenumber varchar(25),
+street varchar(15),
+city varchar(15)),
+
+insert into Store values('100','3547896452','24 South Walles','Chicago');
+insert into Store values('101','8009851292','15 West King Drive',Chicago');
+insert into Store values('102','7854789647','08 North Michigan Avenue','Chicago');
+insert into Store values('103','3127896459','451 Canal Street','Chicago');
+

@@ -1,0 +1,13 @@
+Create table Checkout(
+checkoutid varchar(20) NOT NULL,
+cust_id varchar(20) NOT NULL,
+storeid varchar(20) NOT NULL,
+totalprice varchar(50),
+tax varchar(30) NOT NULL,
+date varchar(20),
+cardnumber char(20),
+securitycode number(10),
+Date date,
+primary key(checkout_id),
+Foreign key (cust_id) references customer,
+Foreign key (storeid) references store);
